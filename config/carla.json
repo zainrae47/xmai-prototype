@@ -1,0 +1,21 @@
+{
+  "version": "0.9.16",
+  "install_root": "C:\\Users\\adduz\\CARLA_0.9.16",
+  "host": "127.0.0.1",
+  "rpc_port": 2000,
+  "default_map": "Carla/Maps/Town10HD_Opt",
+  "experiment_map": "Town01",
+  "quality_level": "Low",
+  "cache_directory": ".carla-cache",
+  "fixed_delta_seconds": 0.05,
+  "lead_braking": {
+    "seeds": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+    "initial_gap_m": 28.0,
+    "ego_initial_speed_mps": 10.0,
+    "lead_initial_speed_mps": 7.0,
+    "warmup_seconds": 1.0,
+    "maximum_response_seconds": 7.0,
+    "initial_speed_tolerance_mps": 0.25,
+    "initial_clearance_tolerance_m": 0.25
+  }
+}

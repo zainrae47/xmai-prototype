@@ -1,0 +1,11 @@
+{
+  "schema_version": "1.0",
+  "stop_ttc_s": 2.5,
+  "slow_ttc_s": 5.0,
+  "near_distance_m": 12.0,
+  "decision_actions": [
+    "CONTINUE",
+    "SLOW_YIELD",
+    "CONTROLLED_STOP"
+  ]
+}

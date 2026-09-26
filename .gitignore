@@ -1,0 +1,9 @@
+.venv/
+.carla-cache/
+.carla.pid
+__pycache__/
+*.pyc
+
+# Generated results and local quality checks
+output/
+.qa/
